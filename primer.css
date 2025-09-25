@@ -1,0 +1,126 @@
+#hero{
+  min-height: 100%;
+  position: relative;
+}
+video{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.capa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+h1{
+ color: white;
+ font-size: 50px;
+ font-family:cursive;
+ text-align: center;
+ position: relative;
+ z-index: 2;
+}
+img{
+  border-radius: 40px;
+}
+p{
+  font-family: fantasy;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+li{
+text-align: center;
+color: white;position: relative;
+z-index: 2;
+}
+a{
+  font-family: fantasy;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+h2{
+  color: white;
+  font-size: 30px;
+  font-family:cursive;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+section{
+ border-radius: 30px;
+  margin-left: 200px;
+  margin-top: 70px;
+  width: 1500px;
+  height: 800px;
+  position: relative;
+  z-index: 2;
+}
+button{
+  border-radius: 30px;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+}
+h3{
+  color: white;
+  font-size: 20px;
+  font-family:cursive;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 768px) {
+body{
+  width: 768px;
+  margin: 0px;
+}
+header{
+  width: 768px;
+}
+section{
+  width: 700px;
+  margin-left: 0px;
+}
+img{
+  margin-left: 150px;
+  width: 400px;
+  height: 200px;
+  border-radius: 30px;
+}
+}
+@media (max-width: 480px) {
+  body{
+    width: 480px;
+  }
+  header{
+    width: 480px;
+  }
+  section{
+    margin-right: 30px;
+    overflow: none;
+    overflow: scroll;
+    width: 400px;
+    height: 400px;
+  }
+img{
+  margin-left: 30px;
+  width: 400px;
+  height: 200px;
+}
+}
